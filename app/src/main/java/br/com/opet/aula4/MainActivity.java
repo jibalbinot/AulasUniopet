@@ -12,5 +12,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i("MAINACTIVITY","criou a aplicação");
+        chamarIntent();
+
+    }
+
+    public void chamarIntent(){
+        Log.i("MAINACTIVITY","entrei na função");
     }
 }
